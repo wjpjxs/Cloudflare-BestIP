@@ -16,6 +16,8 @@ Cloudflare BestIP 是一个高效的 IP 优选工具，通过Golang重构，借�
 
 可访问[CloudFlare BestIP](http://bestip.badking.pp.ua/) 避免繁杂的部署体验
 
+![image](https://github.com/user-attachments/assets/5be11002-cf17-41af-a715-a1fe2c822134)
+
 ## 主要功能
 
 - 自动下载和测试 Cloudflare IP 速度
