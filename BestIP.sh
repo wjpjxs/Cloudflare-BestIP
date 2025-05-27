@@ -50,7 +50,12 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "解压: $PKG"
-tar -xzvf "$PKG"
+if [ -f config.json ]; then
+    echo "config.json 已存在，更新 BestIP"
+    tar -xzvf "$PKG" BestIP --overwrite
+else
+    tar -xzvf "$PKG" --overwrite
+fi
 chmod +x BestIP
 echo "删除压缩包: $PKG"
 rm -f "$PKG"
