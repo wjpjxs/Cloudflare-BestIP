@@ -149,8 +149,11 @@ color: #111827;
 
 .code-block {
 background-color: #f3f4f6;
-padding: 4px 8px;
+padding: 4px 7px;
 border-radius: 4px;
 font-family: monospace;
 margin-top: 8px;
+}
+.text-green-700{
+    display: table-cell !important;
 }
